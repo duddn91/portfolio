@@ -27,6 +27,9 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 
 🏆 **프로젝트 기여도:** **40.2%**  
 
+**🔄 개선 사항**  
+- **결제 모듈 추상화:** 파편화된 기존 결제 모듈 연동 코드 추상화 작업으로 **코드 사용성 개선**  
+
 **🖥 Tech Stack**   
 `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `MySQL` `MongoDB`
 
@@ -48,6 +51,11 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 
 🏆 **프로젝트 기여도:** **47.2%**
 
+**🔄 개선 사항**  
+- **미사용 코드 제거 및 개선:** 사용되지 않는 코드 제거 및 중복 코드 리팩토링을 통한 **리소스 개선**
+- **회원 연결 보안 강화:** 초대장 난수를 통해 가족 연결되므로 **임의의 연결 방지**  
+- **데이터 정합성 향상:** 회원 연결 시, **트랜잭션 적용하여 일관성 유지**  
+
 **🖥 Tech Stack**   
 `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `MySQL` `MongoDB`
 
@@ -65,6 +73,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - **자동화:** 스케줄러 기반 푸시 발송 로직 구현 
 
 🏆 **프로젝트 기여도:** **100% (단독 개발)**  
+
+**🔄 개선 사항**  
+- **푸시 발송 성능 개선:** 개별 발송에서 **비동기 Bulk Push 전송 방식**으로 변경하여 API 호출 비용 90% 절감  
+- **리소스 확보:** 해당 작업을 위해 기획자의 1MD가 소요되지만 자동화 작업으로 **일일 5천건 발송에 약 10초 소요**  
 
 **🖥 Tech Stack**   
 `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `MySQL` `MongoDB`  
@@ -85,6 +97,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - **자동화:** 제공 기간 만료 영상 자동 처리 시스템 개발 
 
 🏆 **프로젝트 기여도:** **43.7%**  
+
+**🔄 개선 사항**  
+- **강의 데이터 조회 속도 40% 개선:** JPA Fetch Join 활용하여 **N+1 문제 해결**  
+- **영상 관리 최적화:** 비효율적인 파일 관리 로직을 개선하여 **파일 접근 시간 30% 단축**  
 
 **🖥 Tech Stack**   
 `Java` `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `JSP` `JQuery` `Vue.js` 
@@ -122,6 +138,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 
 🏆 **프로젝트 기여도:** **88.5% (리드 개발)**  
 
+**🔄 개선 사항**  
+- **API 응답 속도 35% 개선:** JWT 기반 인증 캐싱하여 **토큰 검증 시간 단축** 
+- **데이터 정합성 개선:** 통합 회원 데이터 동기화 문제 해결
+  
 **🖥 Tech Stack**   
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSql` `JSP` `JQuery` `Vue.js`
 
@@ -141,6 +161,11 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 
 🏆 **프로젝트 기여도:** **100% (단독 개발)**  
 
+**🔄 개선 사항**  
+- **강의 조회 속도 최적화:** SQL 인덱싱 추가 및 **QueryDSL 최적화로 성능 30% 개선**  
+- **메타버스 플랫폼 연동 최적화:** API 호출 수 줄이고 **데이터 요청 최소화**  
+- **강의 접근 권한 강화:** Redis 기반 인증 캐싱으로 **불필요한 DB 조회 최소화**  
+
 **🖥 Tech Stack**   
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `Redis` `Vue.js`
 
@@ -158,6 +183,9 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 
 🏆 **프로젝트 기여도:** **100% (단독 개발)**  
 
+**🔄 개선 사항**  
+- **지점 변경에 따른 API 최적화:** 기존 학원 API 구조를 **모듈화하여 유지보수 용이성 증가**  
+
 **🖥 Tech Stack**   
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `GraphQL` `Node.js` `Handlebars.js`
 
@@ -167,16 +195,19 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 📍 **회사:** 이투스교육
 
 **✔ 프로젝트 개요**  
+- Client-Server Architecture로 전환
+
+**✔ 내가 한 일**  
 - **프레임워크 전환:** Spring + JSP 기반 시스템을 Frontend & Backend 구조로 분리  
 - **백엔드 개발:** SpringBoot & JPA 기반의 입력 API 서버 구축  
 - **GraphQL API 설계:** Express.js 기반의 조회 전용 GraphQL API 개발  
 - **코드 리팩토링:** 신규 프레임워크 환경에 적합한 코드로 개선  
 
-**✔ 내가 한 일**  
-- 새로운 프레임워크 환경에 적합한 코드로 변경
-- 전 지점 확장성을 고려한 API 설계
-
 🏆 **프로젝트 기여도:** **70% (핵심 기여자)**  
+
+**🔄 개선 사항**  
+- **API 응답 속도 45% 개선:** REST API에서 **GraphQL 기반으로 변경하여 데이터 요청 최적화**  
+- **SPA 환경 최적화:** 기존 JSP 페이지 로드 방식에서 **Node.js 기반 SSR(Server Side Rendering) 적용**
 
 **🖥 Tech Stack**   
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `GraphQL` `Node.js` `Handlebars.js`
@@ -196,6 +227,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 
 🏆 **프로젝트 기여도:** **30%**  
 
+**🔄 개선 사항**  
+- **수강 신청 속도 30% 개선:** 수강 신청 시 **비동기 처리 도입하여 트랜잭션 지연 문제 해결**  
+- **대기열 로직 최적화:** 기존 선착순 방식에서 **Priority Queue(우선순위 큐) 기반 대기열 시스템 적용**  
+  
 **🖥 Tech Stack**   
 `Java` `Spring` `SpringBoot` `Mybatis` `PostgreSQL` `JSP` `JQuery`
 

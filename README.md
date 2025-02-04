@@ -18,9 +18,9 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - **결제 시스템 구축:** TOSS 결제 모듈 및 NICE PG 연동 코드 리팩토링  
 - **백엔드 개발:** 주요 학원 관리 기능 개발 및 API 구현  
 
-**🏆 프로젝트 기여도:** **40.2% **  
+**🏆 프로젝트 기여도: 40.2% **  
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `MySQL` `MongoDB`
 
 ---
@@ -37,10 +37,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - Sendbird 데이터 보존을 위한 코드 수정  
 - 가족 초대장 & 학원 초대장 분리 작업
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 47.2%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `MySQL` `MongoDB`
 
 ---
@@ -53,10 +53,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - Firebase 연동 공용 라이브러리 개발  
 - 스케줄러를 통한 자동 Push 발송
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 100%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `MySQL` `MongoDB`  
 
 ---
@@ -71,10 +71,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - 서비스 품질 향상 기획 참여  
 - 제공 기간 만료 영상 자동 처리 시스템 개발
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 43.7%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `Java` `SpringBoot` `SpringBatch` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `JSP` `JQuery` `Vue.js` 
 
 ---
@@ -88,10 +88,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - 통합회원 연동
 - 포인트 도메인 API 작업
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 33.4%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `Java` `Spring` `Mybatis` `MySQL` `Redis`
 
 ---
@@ -105,10 +105,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - cookie 인증 방식에서 JWT 토큰 기반의 API 통신으로 회원 인증 방식 변경
 - 통합회원 서버와 API 통신을 통한 인증 로직 구현
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 88.5%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSql` `JSP` `JQuery` `Vue.js`
 
 ---
@@ -123,10 +123,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - 강의 조회 API 작업
 - 화면 작업
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 100%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `Redis` `Vue.js`
 
 ---
@@ -139,10 +139,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - 데이터 수정 작업 및 신규 지점 관련 데이터 생성
 - 화면 작업
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 100%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `GraphQL` `Node.js` `Handlebars.js`
 
 ---
@@ -158,10 +158,10 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - 새로운 프레임워크 환경에 적합한 코드로 변경
 - 전 지점 확장성을 고려한 API 설계
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 70%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `Java` `Spring` `SpringBoot` `JPA` `QueryDSL` `Mybatis` `PostgreSQL` `GraphQL` `Node.js` `Handlebars.js`
 
 ---
@@ -175,8 +175,8 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 - 수강제한인원 초과시 대기번호 발급 알고리즘 생성
 - 수강 현황 및 출석부 화면 작업
 
-**✔ 프로젝트 기여도** 
+**🏆 프로젝트 기여도** 
 - 30%
 
-**✔ 사용 기술**  
+**🔧 사용 기술**  
 `Java` `Spring` `SpringBoot` `Mybatis` `PostgreSQL` `JSP` `JQuery`

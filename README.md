@@ -3,11 +3,16 @@
 Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**에 관심이 많으며,  
 다양한 프로젝트에서 데이터 모델링, API 설계 및 성능 개선을 경험했습니다.  
 
-아래는 제가 수행한 주요 프로젝트 내역입니다.
+---
+
+## 🛠 Tech Stack  
+**Frontend:** JSP, JavaScript, Vue.js  
+**Backend:** Java, SpringBoot, SpringBatch, JPA, QueryDSL  
+**Database:** MySQL, PostgreSQL, MongoDB, Redis  
+**Tools:** Git, Jenkins, RabbitMQ  
 
 ---
 
-## 📂 주요 프로젝트
 
 ### 🚀 랠리즈 PLUS - 학원 관리 시스템 고도화 (2024.09 ~ 2024.12)
 📍 **회사:** 배컴  
@@ -193,3 +198,8 @@ Spring 생태계를 중심으로 **백엔드 아키텍처 설계 및 최적화**
 
 **🖥 Tech Stack**   
 `Java` `Spring` `SpringBoot` `Mybatis` `PostgreSQL` `JSP` `JQuery`
+
+---
+
+## 🔗 Contact  
+📫 **Email:** byw1666@gmail.com  
